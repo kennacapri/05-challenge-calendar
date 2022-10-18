@@ -10,8 +10,7 @@ $(document).ready(function() {
 
       localStorage.setItem(time,text);
     })
-
-     $("#hour9 .description").val(localStorage.getItem("hour9"));
+    // add text to each time block     $("#hour9 .description").val(localStorage.getItem("hour9"));
      $("#hour10 .description").val(localStorage.getItem("hour10"));
      $("#hour11 .description").val(localStorage.getItem("hour11"));
      $("#hour12 .description").val(localStorage.getItem("hour12"));
